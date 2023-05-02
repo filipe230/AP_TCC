@@ -64,7 +64,7 @@
 }
 
 .card.small h4{
-    color:rgba(255, 255, 255, .6);
+    color:#FFF;
 
     padding:1rem ;
     padding-left:0 ;
@@ -120,7 +120,7 @@
 }
 
 .card.medium h4{
-    color:rgba(255, 255, 255, .6);
+    color:#FFF;
 
     padding:1rem;
 }

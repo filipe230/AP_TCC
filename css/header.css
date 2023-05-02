@@ -88,7 +88,6 @@ header button a{
 
     font-weight:700;
     font-size: 1.4rem;
-    color: var(--color-white);
     /*background-color: var(--color-secondary);*/
 
     padding: .5rem 1rem ;
@@ -100,7 +99,8 @@ header button a{
 .nav-menu ul li a:hover{
    
     border-bottom:.1rem solid var(--yelow);
-   
+    color: var(--color-white);
+
 }
 
 

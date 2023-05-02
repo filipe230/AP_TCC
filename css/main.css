@@ -6,14 +6,14 @@
 
 :root{
 
-	--blue-one:#0e2433;
-	--blue-two:#1c4866;
-	--blue-three:#296d98;
-	--blue-four:#3792cb;
-	--blue-five:#45b6fe;
-	--yelow:#ffff00;
+	--blue-one:#3DDD55;
+	--blue-two:#16AF57;
+	--blue-three:#1AC963;
+	--blue-four:#0B572Bs;
+	--blue-five:#16AF57;
+	--yelow:#fff;
 	--color-white:#fff;
-	--color-black:#000;
+	--color-black:#fff;
 
 	font-size: 62.5%;
 }
