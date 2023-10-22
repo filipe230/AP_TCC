@@ -1,8 +1,8 @@
 var url_programiz = "https://www.programiz.com/python-programming/online-compiler/";
-var url_aula1 = "https://colab.research.google.com/drive/1iXwiC_NSjX8aWgnP6AKKca0xyEtK2n5b?authuser=3#scrollTo=_C74RhohyFln";
-var url_aula2 = "https://colab.research.google.com/drive/1yN10qHovel4Hb0H672sauD9Rm4UQA6wr?authuser=3";
-var url_aula3 = "https://colab.research.google.com/drive/1JjlnMA_YQ35gpyuec_yGXuwjLLzlXtS1?authuser=3";
-var url_aula4 = "https://colab.research.google.com/drive/1oRpjlPbSlS04UYLaeudH6zRGt7DY1vmu?authuser=3";
+var url_aula1 = "https://colab.research.google.com/drive/1-Y10IX2b3dzhgVH13sgOzFGwkLHyPequ";
+var url_aula2 = "https://colab.research.google.com/drive/1QvDmoMqLO47687HAi1SjnpNsGiRMytuB";
+var url_aula3 = "https://colab.research.google.com/drive/13pRGOsjbTs_4M6GRTHRbCbmMl7o7fOzj";
+var url_aula4 = "https://colab.research.google.com/drive/1NsJlDbv13CNC-8u3YZaUd2QZo25ORYqP";
 var url_aula5 = "";
 var url_jogos = "";
 
