@@ -14,7 +14,6 @@
 	--yelow:#ffff00;
 	--color-white:#fff;
 	--color-black:#000;
-
 	font-size: 62.5%;
 }
 body{
@@ -23,7 +22,7 @@ body{
 	position: relative;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, table{
 	font-family: 'Press Start 2P', 'cursive';
 }
 
@@ -34,6 +33,20 @@ h1,h2,h3,h4,h5,h6{
 a{
 	text-decoration: none;
 	color: white;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+
+th {
+	background-color: red;
 }
 
 
