@@ -51,10 +51,15 @@
 #menu-h ul li a {
     color: #FFF;
     height: 185px;
-    width: 173.3px;
+    width: 169.5px;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #45b6fe;
+    color: #1c4866;
 }
 
 #menu-h ul li a p{
@@ -65,20 +70,14 @@
     margin-top: 60px;
 }
 
-#menu-h ul li a:hover {
-    height: 185px;
-    width: 173.3px;
-    background-color: #45b6fe;
-    color: #1c4866;
-}
-
-
 
 #menu-h ul li.materiais a h4{
     margin-top: 75px;
 }
 
 #menu-h ul li.materiais a{
+    height: 185px;
+    width: 169px;
     background-color: #0e2433;
     border-bottom-right-radius: 14px;
 }
