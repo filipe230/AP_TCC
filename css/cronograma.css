@@ -1,50 +1,114 @@
 .cronograma{
     /*background-color: red;*/
-    width: 100%;
-    height: 90%;
-    display: flex;
+    width:  100%;
+    height: 100%;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     flex-wrap: nowrap;
 }
-
-.cronograma h4{
-    font-size: 8px;
-}
-
-
-.cronograma-content{
-    width: 100%;
-
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
-.link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-    text-decoration: none;
-    color: white;
-
-}
-
-.cronograna-aula{
-    font-family:'Press Start 2P', 'cursive';
-    width: 15%; 
-    cursor: pointer;
-    font-size: medium;
-    text-align: center;
-}
-
 .botao-expandir{
     margin: 2rem 0 auto;
     width: 5rem;
     height: 4rem;
     display: none;
+}
+
+
+#menu-h{
+	font-family: 'Press Start 2P', 'cursive';   
+    background: #1c4866;
+    border-radius: 15px;
+    border: 1px solid #72a1c1;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    display:flex;
+    align-items: center;
+}
+
+#menu-h ul:first-child{
+    list-style: none;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #72a1c1;
+}
+
+#menu-h ul li {
+    display: inline;
+    text-align: center;
+    border-right: 1px solid #44657b;
+}
+
+#menu-h ul li:last-child{
+    text-align: center;
+    border-right: none;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    height: 185px;
+    width: 173.3px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a p{
+    margin-left: 10px;
+}
+
+#menu-h ul li a h4{
+    margin-top: 60px;
+}
+
+#menu-h ul li a:hover {
+    height: 185px;
+    width: 173.3px;
+    background-color: #45b6fe;
+    color: #1c4866;
+}
+
+
+
+#menu-h ul li.materiais a h4{
+    margin-top: 75px;
+}
+
+#menu-h ul li.materiais a{
+    background-color: #0e2433;
+    border-bottom-right-radius: 14px;
+}
+
+#menu-h ul li.materiais a:hover{
+    background-color: #3792cb;
+}
+
+
+
+#menu-h ul li.borda1 a{
+    border-top-left-radius: 14px;
+}
+
+#menu-h ul li.borda1 a:hover{
+    background-color: #3792cb;
+}
+
+#menu-h ul li.borda2 a{
+    border-top-right-radius: 14px;
+}
+
+#menu-h ul li.borda2 a:hover{
+    background-color: #3792cb;
+}
+
+#menu-h ul li.borda3 a{
+    border-bottom-left-radius: 14px;
+}
+
+#menu-h ul li.borda3 a:hover{
+    background-color: #3792cb;
 }
