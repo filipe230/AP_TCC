@@ -32,3 +32,23 @@ p{
     text-align: left ;
     padding-left: 12px;
 }
+
+.link-download{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link-download a{
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;  
+    background: #296d98;
+    border-radius: 10px ;
+    color: white;
+}
+
+.link-download a:hover{
+    background-color: #aacae1;
+    color: #083757;
+}
