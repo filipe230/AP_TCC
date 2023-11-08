@@ -1,0 +1,62 @@
+/* Default styling for larger screens */
+#menu-h{
+	font-family: 'Press Start 2P', 'cursive';   
+    background: #1c4866;
+    border-radius: 15px;
+    border: 1px solid #72a1c1;
+}
+
+nav#menu-h ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  nav#menu-h ul li {
+    margin: 0;
+    height: 15rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #menu-h ul li {
+    display: inline;
+    text-align: center;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    height: 185px;
+    width: 80%;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+  .botao-expandir{
+    margin: 2rem 0 auto;
+    width: 5rem;
+    height: 4rem;
+    display: none;
+}
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 800px) {
+    nav#menu-h ul {
+      flex-direction: column;
+    }
+  
+    nav#menu-h ul li {
+      margin: 10px 0;
+    }
+
+    
+  }
+  

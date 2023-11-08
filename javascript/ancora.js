@@ -3,16 +3,9 @@ var url_aula1 = "https://colab.research.google.com/drive/1-Y10IX2b3dzhgVH13sgOzF
 var url_aula2 = "https://colab.research.google.com/drive/1QvDmoMqLO47687HAi1SjnpNsGiRMytuB";
 var url_aula3 = "https://colab.research.google.com/drive/13pRGOsjbTs_4M6GRTHRbCbmMl7o7fOzj";
 var url_aula4 = "https://colab.research.google.com/drive/1NsJlDbv13CNC-8u3YZaUd2QZo25ORYqP";
-var url_aula5 = "";
-var url_jogos = "";
-
-/*var plano_aula1 = "";
-var plano_aula2 = "";
-var plano_aula3 = "";
-var plano_aula4 = "";
-var plano_aula5 = "";
-var plano_aula6 = "";
-var plano_aula7 = "";*/
+var url_aula5 = "https://colab.research.google.com/drive/1zygv_016ER1BbzPNLOZ7Ymaoy9Zb5PfX";
+var url_aula6 = "https://colab.research.google.com/drive/1KEfBlFyvfh7CpDPub8-SSyEaoB1hLF8E";
+var url_aula7 = "https://colab.research.google.com/drive/1U6aEv8zzr_yM20HITYk9FyPnK0BpiW64";
 
 var programiz = document.getElementById("card-programiz");
 var aula1 = document.getElementById("card-aula1");
@@ -20,27 +13,12 @@ var aula2 = document.getElementById("card-aula2");
 var aula3 = document.getElementById("card-aula3");
 var aula4 = document.getElementById("card-aula4");
 var aula5 = document.getElementById("card-aula5");
-var jogos = document.getElementById("card-jogos");
-
-/*var plano_1 = document.getElementById("card-aula1");
-var plano_2 = document.getElementById("card-aula2");
-var plano_3 = document.getElementById("card-aula3");
-var plano_4 = document.getElementById("card-aula4");
-var plano_5 = document.getElementById("card-aula5");
-var plano_6 = document.getElementById("card-jogos");
-var plano_7 = document.getElementById("card-jogos");*/
-
-
+var aula6 = document.getElementById("card-aula6");
+var aula7 = document.getElementById("card-aula7");
 
 programiz.addEventListener('click', function() {
     
     openInNewTab(url_programiz);
-  
-});
-
-jogos.addEventListener('click', function() {
-    
-    openInNewTab(url_jogos);
   
 });
 
@@ -71,6 +49,18 @@ aula4.addEventListener('click', function() {
 aula5.addEventListener('click', function() {
     
     openNextPage(url_aula5);
+  
+});
+
+aula6.addEventListener('click', function() {
+    
+    openNextPage(url_aula6);
+  
+});
+
+aula7.addEventListener('click', function() {
+    
+    openNextPage(url_aula7);
   
 });
 
