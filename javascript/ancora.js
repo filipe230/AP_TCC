@@ -24,43 +24,43 @@ programiz.addEventListener('click', function() {
 
 aula1.addEventListener('click', function() {
     
-    openNextPage(url_aula1);
+    openInNewTab(url_aula1);
   
 });
 
 aula2.addEventListener('click', function() {
     
-    openNextPage(url_aula2);
+    openInNewTab(url_aula2);
   
 });
 
 aula3.addEventListener('click', function() {
     
-    openNextPage(url_aula3);
+    openInNewTab(url_aula3);
   
 });
 
 aula4.addEventListener('click', function() {
     
-    openNextPage(url_aula4);
+    openInNewTab(url_aula4);
   
 });
 
 aula5.addEventListener('click', function() {
     
-    openNextPage(url_aula5);
+    openInNewTab(url_aula5);
   
 });
 
 aula6.addEventListener('click', function() {
     
-    openNextPage(url_aula6);
+    openInNewTab(url_aula6);
   
 });
 
 aula7.addEventListener('click', function() {
     
-    openNextPage(url_aula7);
+    openInNewTab(url_aula7);
   
 });
 
