@@ -16,6 +16,7 @@ var aula5 = document.getElementById("card-aula5");
 var aula6 = document.getElementById("card-aula6");
 var aula7 = document.getElementById("card-aula7");
 
+
 programiz.addEventListener('click', function() {
     
     openInNewTab(url_programiz);
