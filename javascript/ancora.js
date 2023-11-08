@@ -1,4 +1,4 @@
-var url_programiz = "https://www.programiz.com/python-programming/online-compiler/";
+var url_programiz = "https://www.python.org/";
 var url_aula1 = "https://colab.research.google.com/drive/1-Y10IX2b3dzhgVH13sgOzFGwkLHyPequ";
 var url_aula2 = "https://colab.research.google.com/drive/1QvDmoMqLO47687HAi1SjnpNsGiRMytuB";
 var url_aula3 = "https://colab.research.google.com/drive/13pRGOsjbTs_4M6GRTHRbCbmMl7o7fOzj";
