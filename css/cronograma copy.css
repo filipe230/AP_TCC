@@ -80,8 +80,10 @@
 }*/
 
 @media screen and (max-width: 550px) {
-    .menu-responsivo{
-        display: block;
+    :not(.recolhido) .menu-responsivo{display: block;}
+    
+    .recolhido .menu-responsivo{
+        display: none;
     }
 
     .menu-responsivo ul li{
