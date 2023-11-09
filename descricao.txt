@@ -1,0 +1,13 @@
+O trabalho realizado nesta Página Web foi uma produção de parcerias com diversos trabalhos e projetos.
+
+O primeiro foi o Trabalho de Conclusão de Curso intitulado como "Implementação de uma arquitetura pedagógica para o ensino de lógica de programação" do discente Filipe Jesus Portilho da Turma I.
+
+O segundo foi o projeto de Iniciação Cientifica e Tencologica intitulado como "" da discente Nicole Alves Rodrigues da Turma IV.
+
+Ambos estudantes são do Curso de Bacharelado em Ciência da Computação do IF Goiano - Campus Iporá.
+
+O terceiro foi o apoio do Projeto de Extensao para realizar a aplicação prática da Arquitetura Pedagógica - AP, sendo este projeto intitulado "Ensino de lógica de programação para estudantes de ensino médio em escolas da rede pública de Iporá (2023/2024)", aprovado pelo Edital Nº 12 de 17 de maio de 2023 - Edital Institucional de Apoio a Programas ou Projetos de Extensão (12 meses - 20 horas semanais) com fornecimento de bolsa em dinheiro.
+
+Ambos os projetos tiveram como orientador o Prof. Dr. Newarney Torrezão da Costa, que contribuiu significativamente na produção dos resultados dos projetos citados anteriormente.
+
+Desta forma, observou que a execução dos projetos em parceria possibilitou novas aprendizagem que envolveu a produção de uma página web, uso do Google Colab, e desenvolvimento de materiais para ensino de lógica de programção com a linguagem Python.
