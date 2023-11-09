@@ -20,21 +20,24 @@
 		<link rel="stylesheet" href="css/header.css" />
 		<link rel="stylesheet" href="css/standart.css" />
 		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/novo.css" />
 
 		<link rel="stylesheet" href="css/mobile/header_mobile.css">
 		<link rel="stylesheet" href="css/mobile/standart_mobile.css">
 		<link rel="stylesheet" href="css/mobile/cards_mobile.css">
 		<link rel="stylesheet" href="css/mobile/footer_mobile.css">
 		<link rel="stylesheet" href="css/mobile/cronograma_mobile.css">
-
+		
+		<link rel="stylesheet" href="css/cronograma copy.css">
 
 		<script type="text/javascript" src="javascript/ancora.js" defer></script>
 		
 
 		<link rel="stylesheet" href="css/svg.css">
-		<link rel="stylesheet" href="css/cronograma.css">
+		<!--<link rel="stylesheet" href="css/cronograma copy.css">-->
 		<title>Arquitetura Pedagógica</title>
 	</head>
+
 	<body>
 		
 		<div class="container">
@@ -133,49 +136,58 @@
 						<h2>Planos de aula</h2>
 
 						<div class="cronograma recolhido">
-							<div class="cronograma-content">	
-							    <nav id="menu-h">
+							<div class="cronograma-content">			
+							    <nav id="menu_cronograma">
 									<ul>
-										<li class="borda1"><a href="plano_aula1.html"><h4>Plano da</h4> <p>AULA 1</p></a></li>
-										
-										<li><a href="plano_aula2.html"><h4>Plano da</h4> <p>AULA 2</p></a></li>
-										
-										<li><a href="plano_aula3.html"><h4>Plano da</h4> <p>AULA 3</p></a></li>
-										
-										<li class="borda2"><a href="plano_aula4.html"><h4>Plano da</h4> <p>AULA 4</p></a></li>
-									</ul>
-									<ul>
-							
-										<li class="borda3"><a href="plano_aula5.html"><h4>Plano da</h4> <p>AULA 5</p></a></li>
-										
-										<li><a href="plano_aula6.html"><h4>Plano da</h4> <p>AULA 6</p></a></li>
-										
-										<li><a href="plano_aula7.html"><h4>Plano da</h4> <p>AULA 7</p></a></li>
-										
-										<li class="materiais"><a href="jogos.html"><h4>Materiais</h4></a></li>
+										<div class="bloco1">
+											<li><a href="plano_aula1.html"><h4>Plano da <p>AULA 1</p></li>								
+											<li><a href="plano_aula2.html"><h4>Plano da <p>AULA 2</p></li>
+											<li><a href="plano_aula3.html"><h4>Plano da <p>AULA 3</p></li>										
+											<li><a href="plano_aula4.html"><h4>Plano da <p>AULA 4</p></li>
+										</div>
+										<div class="bloco2">
+											<li><a href="plano_aula5.html"><h4>Plano da <p>AULA 5</p></li>										
+											<li><a href="plano_aula6.html"><h4>Plano da <p>AULA 6</p></li>										
+											<li><a href="plano_aula7.html"><h4>Plano da <p>AULA 7</p></li>										
+											<li class="jogos"><a href="jogos.html"><h4>Materiais</h4></a></li>
+										</div>
 									</ul>
 								</nav>
+							</div>
 
+							<div class="menu-responsivo">
+								<nav class="menu_cronograma_responsivo">
+									<ul>
+										<li><a href="plano_aula1.html"><h4>Plano da <p>AULA 1</p></li>								
+										<li><a href="plano_aula2.html"><h4>Plano da <p>AULA 2</p></li>
+										<li><a href="plano_aula3.html"><h4>Plano da <p>AULA 3</p></li>										
+										<li><a href="plano_aula4.html"><h4>Plano da <p>AULA 4</p></li>
+										<li><a href="plano_aula5.html"><h4>Plano da <p>AULA 5</p></li>										
+										<li><a href="plano_aula6.html"><h4>Plano da <p>AULA 6</p></li>										
+										<li><a href="plano_aula7.html"><h4>Plano da <p>AULA 7</p></li>										
+										<li class="jogos"><a href="jogos.html"><h4>Materiais</h4></a></li>
+									</ul>
+								</nav>	
 							</div>
 					
 							<div class="botao-expandir">
 								<span id="expandir" class="material-symbols-outlined">
 									expand_more
-									</span>
+								</span>
 							</div>
 
 						</div>
 					</div>
-					
 				</div>
-				<div class="card small" id="card-programiz">
 
-					<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 25" class="change-lang-btn-icon svg replaced-svg svg-python" width="24"  height="25" >
+				<div class="card small" id="card_apps">
+
+					<svg id="card-python" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 25" class="change-lang-btn-icon svg replaced-svg svg-python" width="24"  height="25" >
 						<path fill-opacity="1" d="M9.091 11.663h5.782c1.61 0 2.877-1.353 2.877-2.96V3.225c0-1.559-1.315-2.73-2.886-2.99A18.088 18.088 0 0011.853 0a16.25 16.25 0 00-2.738.235c-2.45.43-2.866 1.33-2.866 2.99v2.132H12v.788H4.025C2.342 6.145.868 7.152.408 9.064c-.532 2.191-.556 3.531 0 5.82.411 1.702 1.394 2.888 3.076 2.888h1.972V15.2c0-1.9 1.672-3.538 3.635-3.538zm-.364-7.707c-.6 0-1.087-.489-1.087-1.093 0-.606.486-1.1 1.087-1.1.597 0 1.086.494 1.086 1.1a1.09 1.09 0 01-1.086 1.093zm14.83 5.108c-.416-1.665-1.21-2.919-2.895-2.919h-2.118v2.558c0 1.98-1.744 3.551-3.671 3.551H9.091c-1.584 0-2.842 1.444-2.842 3.02v5.479c0 1.558 1.338 2.475 2.868 2.923 1.833.535 3.568.632 5.76 0 1.458-.42 2.873-1.264 2.873-2.923V18.56H12v-.788h8.662c1.682 0 2.31-1.138 2.895-2.89.604-1.801.578-3.506 0-5.818zm-8.32 10.958c.6 0 1.087.488 1.087 1.093 0 .606-.486 1.1-1.087 1.1a1.095 1.095 0 01-1.086-1.1 1.09 1.09 0 011.086-1.093z" ></path>
 					</svg>
 
 
-					<div class="card-items">
+					<div class="card-items" id="card-colab">
 						<div class="card-content">
 							<h4>Ambiente para programar em Python!</h4>
 							<h2>Google Colab</h2>
@@ -284,7 +296,7 @@
 				</div>
 			</div>
 			
-
+				
 			</div>
 		</footer>
 		<script src="javascript/mobile.js"></script>
