@@ -10,7 +10,7 @@ const cronograma = document.querySelector(".cronograma")
 
 window.addEventListener('load', () => {
     container.classList.add("mobile");
-    if(window.innerWidth <= 800){
+    if(window.innerWidth <= 930){
 
         nav_menu.classList.add("desactive");
         container.classList.add("mobile");
@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
 
 window.addEventListener('resize', () => {
 
-    if(window.innerWidth <= 800){
+    if(window.innerWidth <= 930){
 
         container.classList.add("mobile");       
         header.classList.add("mobile");

@@ -1,4 +1,5 @@
-var url_programiz = "https://www.python.org/";
+var url_python = "https://www.python.org/";
+var url_colab = "https://colab.google/";
 var url_aula1 = "https://colab.research.google.com/drive/1-Y10IX2b3dzhgVH13sgOzFGwkLHyPequ";
 var url_aula2 = "https://colab.research.google.com/drive/1QvDmoMqLO47687HAi1SjnpNsGiRMytuB";
 var url_aula3 = "https://colab.research.google.com/drive/13pRGOsjbTs_4M6GRTHRbCbmMl7o7fOzj";
@@ -7,7 +8,8 @@ var url_aula5 = "https://colab.research.google.com/drive/1zygv_016ER1BbzPNLOZ7Ym
 var url_aula6 = "https://colab.research.google.com/drive/1KEfBlFyvfh7CpDPub8-SSyEaoB1hLF8E";
 var url_aula7 = "https://colab.research.google.com/drive/1U6aEv8zzr_yM20HITYk9FyPnK0BpiW64";
 
-var programiz = document.getElementById("card-programiz");
+var python = document.getElementById("card-python");
+var colab = document.getElementById("card-colab");
 var aula1 = document.getElementById("card-aula1");
 var aula2 = document.getElementById("card-aula2");
 var aula3 = document.getElementById("card-aula3");
@@ -17,9 +19,15 @@ var aula6 = document.getElementById("card-aula6");
 var aula7 = document.getElementById("card-aula7");
 
 
-programiz.addEventListener('click', function() {
+python.addEventListener('click', function() {
     
-    openInNewTab(url_programiz);
+    openInNewTab(url_python);
+  
+});
+
+colab.addEventListener('click', function() {
+    
+    openInNewTab(url_colab);
   
 });
 
